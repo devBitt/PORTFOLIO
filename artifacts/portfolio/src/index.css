@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-card-border: hsl(var(--card-border));
+
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-popover-border: hsl(var(--popover-border));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-orbitron: 'Orbitron', sans-serif;
+  
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  /* Enforce Dark Theme Everything */
+  --background: 230 30% 4%; /* Deep space navy/black */
+  --foreground: 210 20% 90%;
+  
+  --border: 230 20% 15%;
+  --input: 230 20% 15%;
+  --ring: 182 100% 50%;
+  
+  --card: 230 25% 6%;
+  --card-foreground: 210 20% 90%;
+  --card-border: 230 20% 15%;
+  
+  --popover: 230 30% 5%;
+  --popover-foreground: 210 20% 90%;
+  --popover-border: 230 20% 15%;
+  
+  --primary: 182 100% 50%; /* Cyan */
+  --primary-foreground: 230 50% 5%;
+  
+  --secondary: 271 91% 65%; /* Purple */
+  --secondary-foreground: 210 20% 90%;
+  
+  --accent: 38 92% 50%; /* Gold */
+  --accent-foreground: 230 50% 5%;
+  
+  --muted: 230 20% 12%;
+  --muted-foreground: 230 10% 60%;
+  
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    cursor: none; /* Hide default cursor globally */
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-card/40 backdrop-blur-md border border-card-border/50 relative overflow-hidden transition-all duration-300;
+  }
+  .glass-card:hover {
+    @apply bg-card/60 border-primary/40 shadow-[0_0_20px_rgba(0,245,255,0.15)];
+  }
+  
+  .glass-card-purple:hover {
+    @apply border-secondary/40 shadow-[0_0_20px_rgba(168,85,247,0.15)];
+  }
+  
+  .glass-card-gold:hover {
+    @apply border-accent/40 shadow-[0_0_20px_rgba(245,158,11,0.15)];
+  }
+  
+  .glow-text-cyan {
+    text-shadow: 0 0 10px rgba(0, 245, 255, 0.5);
+  }
+  
+  .glow-text-purple {
+    text-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+}

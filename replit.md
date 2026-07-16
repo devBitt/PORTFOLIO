@@ -1,6 +1,6 @@
-# [Project name]
+# Adithyan S — Personal Portfolio
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A dark sci-fi themed personal portfolio website for Adithyan S, an Integrated M.Sc. Physics student at Amrita Vishwa Vidyapeetham with skills spanning quantum gravity, scientific computing, graphic design, and video editing.
 
 ## Run & Operate
 

@@ -1,0 +1,226 @@
+Build me a stunning personal portfolio website with a dark, futuristic space/sci-fi aesthetic.
+The person is Adithyan S — an Integrated M.Sc. Physics student at Amrita Vishwa Vidyapeetham,
+Amritapuri, Kerala, India (Expected 2029), with a unique blend of theoretical physics,
+scientific computing, creative design, and video editing.
+
+═══════════════════════════════════════
+AESTHETIC & DESIGN DIRECTION
+═══════════════════════════════════════
+- Dark space theme: deep blacks, dark navy, with accent colors in electric blue, cyan, 
+  and subtle purple/violet glows
+- Animated starfield or particle background (canvas-based, subtle and performant)
+- Glassmorphism cards for sections (frosted glass effect with subtle borders)
+- Smooth scroll, fade-in-on-scroll animations for all sections
+- Custom cursor (glowing dot or crosshair style)
+- Futuristic typography: use "Orbitron" or "Space Grotesk" for headings, "Inter" for body
+- Subtle grid/blueprint overlay on hero section
+- Neon glow effects on hover for buttons and cards
+- Fully responsive (mobile-first)
+
+═══════════════════════════════════════
+SECTIONS (in this order)
+═══════════════════════════════════════
+
+1. HERO
+   - Name: ADITHYAN S
+   - Animated typewriter effect cycling through:
+     "Physicist", "Scientific Programmer", "Graphic Designer", "Video Editor",
+     "Quantum Gravity Enthusiast", "Creative Technologist"
+   - Tagline: "Where Spacetime Meets Code and Creativity"
+   - CTA buttons: "View My Work" (scrolls to Projects) and "Contact Me"
+   - Floating subtle equation particles in background (E=mc², ∇·E, ψ, ∫, etc.)
+
+2. ABOUT ME
+   - Short bio: Adithyan is a physics undergrad passionate about the deepest questions
+     in the universe — quantum gravity, spacetime, and emergent reality — while also
+     building real-world tools through scientific computing and expressing himself
+     through graphic design and video editing. A rare blend of theorist, coder, and creator.
+   - Two personality columns displayed as glowing badges:
+     Left — Science & Tech: Quantum Gravity Explorer, Scientific Programmer,
+     Hackathon Builder, Open Source Contributor
+     Right — Creative: Graphic Designer, Character Designer, Video Editor,
+     Visual Storyteller
+   - Contact info: +91 7736692447 · adithyanpikachu@gmail.com
+   - Social icon links: LinkedIn, GitHub, HackerRank
+
+3. PROJECTS
+   Display as interactive glowing cards with category tags. Hover lifts card with cyan glow.
+
+   Card 1 — SolarSentinel
+   Tag: Physics + ML | Hackathon: Bharatiya Antariksh Hackathon (ISRO), 2026
+   - Real-time solar flare detection & 15-min-ahead forecasting
+   - Fused Aditya-L1 SoLEXS + HEL1OS telemetry with spectral hardness ratio detection
+   - Ensemble model: ARIMA + flux-derivative + spectral-variance features
+   - Stack: Python, NumPy, Pandas, 3D web dashboard
+   - Live link button: solar-sentinel-solar-sentinel.vercel.app
+
+   Card 2 — Relativity Simulation & Spacetime Visualization
+   Tag: Theoretical + Computational | Independent Study
+   - Python simulations of Lorentz transforms, spacetime diagrams, relativistic worldlines
+   - Visualized time dilation, length contraction, simultaneity
+   - Stack: Python, NumPy, Matplotlib
+
+   Card 3 — Satellite Data Analysis for Air Pollution
+   Tag: Environmental Physics | Bharatiya Antariksha Hackathon
+   - Spatio-temporal pollution trend analysis using satellite datasets
+   - Stack: Python, Pandas, NumPy, Matplotlib
+
+   Card 4 — Transaction Pattern Analysis for Fraud Detection
+   Tag: Data Science | RBI Hackathon
+   - Anomaly detection, feature engineering, statistical analysis
+   - Stack: Python, Scikit-learn
+
+4. CREATIVE UNIVERSE
+   Section title: "Creative Universe"
+   Subtitle: "Where art meets physics — design, motion, and storytelling"
+   3 filter tabs: [ Video Editing ] [ Graphic Design ] [ Character Design ]
+
+   ── VIDEO EDITING ──
+
+   Card 1 — ARM Cinematic Edit
+   Type: Cinematic Edit | Status: Notable Work ⭐ (subtle gold/amber glow on this card)
+   Description: A cinematic tribute edit that caught the attention of acclaimed Malayalam
+   actress Surabhi Lakshmi, who commented on the video. Created on a now-deleted account —
+   proof that great work speaks for itself.
+   Tags: Cinematic · Malayalam Cinema · Viral Moment
+
+   Card 2 — KILLUA GAMING (Ongoing)
+   Type: Gaming Content Editor | Status: Active Collaboration
+   Description: Currently working as video editor for KILLUA GAMING — handling cuts,
+   motion graphics, pacing, and visual storytelling for gaming content.
+   Tools: After Effects, DaVinci Resolve, CapCut
+   Tags: Gaming · Motion Graphics · Ongoing
+
+   Card 3 — "Next Edit Loading..."
+   Style as a fake video progress bar stuck at 94%, blinking cursor.
+   Text: "More cinematic and creative edits coming soon. The timeline is rendering."
+
+   ── GRAPHIC DESIGN ──
+
+   Card 1 — Brand Identities (Logo Design)
+   Description: Crafting minimal to bold logos — translating a brand's personality
+   into a single mark. Influenced by clean geometry and manga-inspired line work.
+   Tools: Adobe Illustrator, Canva
+   Show a placeholder dark card with a glowing "[ LOGO ]" symbol in center.
+   Status: Portfolio pieces coming soon
+
+   Card 2 — Motion Stills (Posters & Thumbnails)
+   Description: High-impact posters and YouTube thumbnails designed for maximum visual
+   punch — bold typography, dramatic lighting, cinematic composition.
+   Tools: Canva, Pixlr, Adobe Illustrator
+   Show a placeholder dark card with a "[ POSTER ]" frame.
+   Status: Portfolio pieces coming soon
+
+   Card 3 — Digital Presence Design (Social Media Graphics)
+   Description: Social media content that stops the scroll — layouts, story graphics,
+   and branded templates.
+   Tools: Canva, Illustrator
+   Status: Portfolio pieces coming soon
+
+   ── CHARACTER DESIGN ──
+
+   Card 1 — "Characters Awakening..."
+   Description: Deeply influenced by the raw linework and expressive anatomy of manga.
+   Currently developing original characters. First designs dropping soon.
+   Style: Dark card with a half-sketched glowing silhouette emerging from darkness.
+
+   Card 2 — Design Philosophy (quote card, no image)
+   Quote: "Good character design tells you who someone is before they speak a word.
+   That's the goal — every line, every silhouette, intentional."
+   Style as a glowing pull-quote card.
+
+   Section footer note: "This section grows as the work does. Check back."
+   All coming-soon cards should feel like teasers — use loading bars,
+   glowing outlines, or CLASSIFIED redaction aesthetics, not empty spaces.
+
+5. SKILLS
+   Animated grouped glowing pill badges by category:
+
+   Programming & Tools:
+   Python, MATLAB, NumPy, SciPy, Pandas, Matplotlib, Jupyter Notebook,
+   Git, GitHub, Linux, Scikit-learn
+
+   Scientific Computing:
+   Numerical Methods, ODE/PDE Solvers, Computational Modelling,
+   Scientific Visualization, Data Analysis
+
+   Physics & Mathematics:
+   Quantum Physics, Special Relativity, Electromagnetism, General Relativity (self-study),
+   QFT (self-study), Linear Algebra, Multivariable Calculus, Probability & Statistics
+
+   Design:
+   Canva, Adobe Illustrator, Pixlr, Graphic Design, Character Design
+
+   Video Editing:
+   After Effects, DaVinci Resolve, CapCut
+   (subtitle: Editor for KILLUA GAMING)
+
+6. RESEARCH & THEORY
+   Cosmic notebook aesthetic — cards like pages floating in space with equation
+   decorations in the background.
+
+   Entry 1 — General Relativity
+   Spacetime geometry, causal structure, relativistic kinematics
+   (via Susskind's Theoretical Minimum)
+
+   Entry 2 — Quantum Field Theory
+   Introductory QFT via Susskind's Stanford lectures + David Tong's lecture notes
+
+   Entry 3 — Quantum Gravity
+   Foundational questions on emergent and discrete spacetime frameworks
+
+   Section flavor text:
+   "The deepest questions don't have answers yet — that's exactly why they're worth chasing."
+
+7. CERTIFICATIONS
+   Display as glowing badge grid or vertical timeline:
+   - LFEL1006: Securing Projects with OpenSSF Scorecard — Linux Foundation (Jan 2026)
+   - LFD102: Open Source Software Development — Linux Foundation (Jan 2026)
+   - NASA Open Science 101 — NASA (Jun 2025)
+   - Ethical Hacker — Cisco Networking Academy (Apr 2025)
+   - Python (Basic) — HackerRank (Apr 2025)
+   - Introduction to Data Science — Cisco Networking Academy (Jan 2025)
+   - Introduction to Cybersecurity — Cisco Networking Academy (Sep 2023)
+   - Hacktoberfest 2025 — Official Finisher
+
+8. BLOG / NOTES
+   Style as a retro terminal / incoming signal screen with blinking cursor.
+   Title: "Transmission Incoming..."
+   Body: "Physics notes, project breakdowns, and thoughts on the universe — coming soon."
+   Aesthetic: fake terminal with scanline effect and a blinking underscore cursor.
+
+9. CONTACT
+   Glowing minimal contact form (Name, Email, Message) — mailto: fallback, no backend needed.
+   Email: adithyanpikachu@gmail.com
+   Phone: +91 7736692447
+   Social links: LinkedIn, GitHub, HackerRank
+   Closing line: "Whether it's quantum gravity or a design collab — let's talk."
+
+═══════════════════════════════════════
+FOOTER
+═══════════════════════════════════════
+"Adithyan S © 2026 — Built at the intersection of physics, code, and creativity."
+Starfield animation continues into footer.
+
+═══════════════════════════════════════
+TECH STACK
+═══════════════════════════════════════
+- React + Vite
+- Tailwind CSS for utility styling
+- Framer Motion for scroll and hover animations
+- Canvas API for starfield/particle background
+- Google Fonts: Orbitron + Inter
+- No backend required
+- Deploy-ready on Replit
+
+═══════════════════════════════════════
+GLOBAL STYLE RULES
+═══════════════════════════════════════
+- Every hover, scroll transition, and animation should feel intentional and premium
+- The site should feel like it was built by someone who thinks about spacetime geometry
+  AND knows how to make things look beautiful
+- Glow colors: cyan (#00f5ff) for tech/science elements, purple (#a855f7) for creative
+  elements, gold/amber (#f59e0b) only for the Surabhi Lakshmi highlight card
+- No white backgrounds anywhere — ever
+- Spacing should be generous and breathable — not cramped
+- Mobile navigation: hamburger menu with slide-in drawer, same dark aesthetic
