@@ -3,7 +3,7 @@ services:
     name: adithyan-portfolio
     runtime: static
     rootDir: artifacts/portfolio
-    buildCommand: npm install -g pnpm && cd ../.. && pnpm install --force && pnpm --filter ./artifacts/portfolio run build
+    buildCommand: npm install && npm run build
     staticPublishPath: dist/public
     pullRequestPreviewsEnabled: false
     envVars:
