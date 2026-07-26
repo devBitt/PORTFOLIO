@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
+import { Experience } from './components/Experience';
 import { Projects } from './components/Projects';
 import { CreativeUniverse } from './components/CreativeUniverse';
 import { Skills } from './components/Skills';
@@ -48,6 +49,7 @@ function PortfolioApp() {
       <main>
         <Hero />
         <About />
+        <Experience />
         <Projects />
         <CreativeUniverse />
         <Skills />
