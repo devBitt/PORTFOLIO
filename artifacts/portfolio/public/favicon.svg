@@ -1,3 +1,28 @@
 <svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="180" height="180" rx="36" fill="#FF3C00"/>
+  <defs>
+    <linearGradient id="grad1" x1="20" y1="20" x2="160" y2="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="160" y1="20" x2="20" y2="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#06b6d4" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  
+  <!-- Outer glowing ring representing spacetime fabric -->
+  <circle cx="90" cy="90" r="75" stroke="url(#grad1)" stroke-width="4" stroke-linecap="round" stroke-dasharray="150 100" />
+  
+  <!-- Inner geometry: Monogram 'A' styled as a quantum node -->
+  <path d="M55 130 L90 50 L125 130" stroke="url(#grad1)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Path of S: Wrapping around the A as a cosmic wave -->
+  <path d="M50 115 C 50 95, 130 95, 130 75 C 130 60, 110 50, 90 50 C 70 50, 50 60, 50 75" stroke="url(#grad2)" stroke-width="6" stroke-linecap="round" fill="none" filter="url(#shadow)" />
+  
+  <!-- Central quantum node -->
+  <circle cx="90" cy="85" r="7" fill="#ffffff" />
 </svg>
